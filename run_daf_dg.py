@@ -17,7 +17,7 @@ from function_poseaug.dataloader_update import dataloader_update
 from function_poseaug.model_gan_preparation import get_poseaug_model
 from function_poseaug.model_gan_train import train_gan, train_gan_weak, train_gan_strong
 from function_poseaug.model_pos_eval import evaluate_posenet
-from function_poseaug.model_pos_train import train_posenet
+from function_poseaug.model_pos_train import train_posenet, train_posenet_meta
 from utils.gan_utils import Sample_from_Pool
 from utils.log import Logger
 from utils.utils import save_ckpt, Summary, get_scheduler
