@@ -10,3 +10,20 @@
 ```
 python3 run_daf_dg.py --note poseaug --posenet_name 'videopose' --checkpoint './checkpoint' --keypoints gt
 ```
+
+### Citation
+
+If you find this code useful for your research, please cite our paper
+
+```
+@article{peng2024dual,
+  title={A Dual-Augmentor Framework for Domain Generalization in 3D Human Pose Estimation},
+  author={Peng, Qucheng and Zheng, Ce and Chen, Chen},
+  journal={arXiv preprint arXiv:2403.11310},
+  year={2024}
+}
+```
+### Acknowledge
+
+Borrow a lot from [**PoseAug**](https://github.com/jfzhang95/PoseAug).
+
