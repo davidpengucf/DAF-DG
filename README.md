@@ -7,6 +7,6 @@
 - Pretraining and Evaluation: We do not contain these parts in the repo. You can either follow previous works like [**PoseAug**](https://github.com/jfzhang95/PoseAug) and [**AdaptPose**](https://github.com/mgholamikn/AdaptPose) to implement or write it by yourself.
 
 ### Run Training Codes:
-'''
+```
 python3 run_daf_dg.py --note poseaug --posenet_name 'videopose' --checkpoint './checkpoint' --keypoints gt
-'''
+```
